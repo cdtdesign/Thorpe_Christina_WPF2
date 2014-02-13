@@ -2,7 +2,7 @@
 // Christina Thorpe
 // February 11, 2014
 
-// Array of the 5 weeks per class example:
+// Array of the 5 weeks per class example
 var week = [20.00, 25.00, 18.00, 22.00, 28.00];
 
 // Total spending of the 5 weeks + average:
@@ -15,6 +15,8 @@ var multiWeeks = " on groceries over 5 weeks. ";
 var avgSpent = "That is an average of $";
 var perWeek = " per week.";
 
+// Concatenate string, calculating total and average $ spent
 concatString = totalSpent + total + multiWeeks + avgSpent + weeklyAvg + perWeek;
 
+// Print resulting statement
 console.log(concatString);
