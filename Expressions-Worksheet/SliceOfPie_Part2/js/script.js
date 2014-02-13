@@ -10,3 +10,5 @@ var numStudents = 20;
 // Calculate slices of pizza leftover for Sparky
 var numLeftover = "Sparky got " + numPizzas * numSlices % numStudents + " slices of pizza.";
 
+// Print statement to console
+console.log(numLeftover);
