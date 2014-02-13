@@ -23,21 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AverageShoppingBill/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="43" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DogYears/js/script.js">
+        <entry file="file://$PROJECT_DIR$/SliceOfPie_Part1/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="19" selection-start="305" selection-end="305" vertical-scroll-proportion="0.25862068" vertical-offset="0" max-vertical-offset="754">
+            <state line="9" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.1790451" vertical-offset="0" max-vertical-offset="754">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -59,12 +48,12 @@
         <option value="$PROJECT_DIR$/Discounts/index.html" />
         <option value="$PROJECT_DIR$/DogYears/index.html" />
         <option value="$PROJECT_DIR$/SliceOfPie_Part1/index.html" />
-        <option value="$PROJECT_DIR$/SliceOfPie_Part1/js/script.js" />
         <option value="$PROJECT_DIR$/SliceOfPie_Part2/index.html" />
         <option value="$PROJECT_DIR$/SliceOfPie_Part2/js/script.js" />
         <option value="$PROJECT_DIR$/AverageShoppingBill/js/script.js" />
         <option value="$PROJECT_DIR$/Discounts/js/script.js" />
         <option value="$PROJECT_DIR$/DogYears/js/script.js" />
+        <option value="$PROJECT_DIR$/SliceOfPie_Part1/js/script.js" />
       </list>
     </option>
   </component>
@@ -129,7 +118,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DogYears" />
+              <option name="myItemId" value="SliceOfPie_Part1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -143,7 +132,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DogYears" />
+              <option name="myItemId" value="SliceOfPie_Part1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -277,11 +266,6 @@
         <state line="4" column="32" selection-start="110" selection-end="110" vertical-scroll-proportion="0.08219178" vertical-offset="0" max-vertical-offset="730" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SliceOfPie_Part1/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="11" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0397878" vertical-offset="0" max-vertical-offset="754" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SliceOfPie_Part2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="32" selection-start="110" selection-end="110" vertical-scroll-proportion="0.08219178" vertical-offset="0" max-vertical-offset="730" />
@@ -320,18 +304,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AverageShoppingBill/js/script.js">
+    <entry file="file://$PROJECT_DIR$/DogYears/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+        <state line="12" column="19" selection-start="305" selection-end="305" vertical-scroll-proportion="0.25862068" vertical-offset="0" max-vertical-offset="754">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DogYears/js/script.js">
+    <entry file="file://$PROJECT_DIR$/AverageShoppingBill/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="305" selection-end="305" vertical-scroll-proportion="0.25862068" vertical-offset="0" max-vertical-offset="754">
+        <state line="7" column="43" selection-start="201" selection-end="201" vertical-scroll-proportion="0.1417004" vertical-offset="0" max-vertical-offset="741">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SliceOfPie_Part1/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.1790451" vertical-offset="0" max-vertical-offset="754">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
