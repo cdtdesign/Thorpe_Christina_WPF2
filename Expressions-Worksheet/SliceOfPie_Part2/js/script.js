@@ -6,3 +6,6 @@
 var numSlices = 10;
 var numPizzas = 5;
 var numStudents = 20;
+
+// Calculate slices of pizza leftover for Sparky
+var numLeftover = numPizzas * numSlices % numStudents;
