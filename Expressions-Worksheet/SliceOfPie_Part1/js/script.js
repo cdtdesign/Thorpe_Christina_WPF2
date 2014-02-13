@@ -7,3 +7,6 @@ var numSlices = 10
 var numPizzas = 4
 var numStudents = 20
 
+// Statement calculating slices per student
+var totalSlices = "Each person ate " + numPizzas * numSlices / numStudents
+
