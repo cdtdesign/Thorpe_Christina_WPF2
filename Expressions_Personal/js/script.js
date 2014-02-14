@@ -2,6 +2,7 @@
 // Christina Thorpe
 // February 13, 2014
 
+
 // Assign variable and prompt for Christian's homework activity on school nights
 var homewrkHours = prompt("Enter number of hours Christian does homework each school night:", 1.5);
 // Assign variable and prompt for Christian's reading activity on school nights
@@ -9,7 +10,8 @@ var readingHours = prompt("Enter number of hours Christian reads each school nig
 // Assign variable and prompt for Christian's gaming activity on school nights
 var gamingHours = prompt("Enter number of hours Christian games each school night:", 1);
 
-// Calculate 4 week totals of Christian's school night activities
+
+// Calculate 4 week totals of Christian's homework activity on school nights
 var homewrkTotal = homewrkHours * 5 * 4;
 var readingTotal = readingHours * 5 * 4;
 var gamingTotal = gamingHours * 5 * 4;
