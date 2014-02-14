@@ -6,4 +6,7 @@
 var workHours = [5,4,5,4,5];
 
 // Calculate hours worked M-F
-var totalHours = workHours[0] + workHours[1] + workHours[2] + workHours[3] + workHours[4];
+var totalWork = workHours[0] + workHours[1] + workHours[2] + workHours[3] + workHours[4];
+
+// Print total work hours M-F
+console.log(totalWork);
