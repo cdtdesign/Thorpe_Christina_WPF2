@@ -26,7 +26,7 @@ var readingString = "The amount of reading Christian completes in four weeks is 
 // Create gaming string variable
 var gamingString = "The amount of gaming Christian plays in four weeks is ";
 
-// Concatenate strings
+// Concatenate strings to total each activity, in a four week period
 var activitiesTotal = homewrkString + homewrkTotal + " hours. " +  readingString + readingTotal + " hours. " + gamingString + gamingTotal + " hours.";
 
 
