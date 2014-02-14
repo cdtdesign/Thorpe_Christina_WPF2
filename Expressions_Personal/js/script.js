@@ -6,6 +6,7 @@
 var homewrkHours = prompt("Enter number of hours Christian does homework each school night:", 1.5);
 // Assign variable and prompt for Christian's reading activity on school nights
 var readingHours = prompt("Enter number of hours Christian reads each school night:", 1);
+// Assign variable and prompt for Christian's gaming activity on school nights
 var gamingHours = prompt("Enter number of hours Christian games each school night:", 1);
 
 // Calculate 4 week totals of Christian's school night activities
