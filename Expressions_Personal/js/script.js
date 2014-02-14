@@ -13,7 +13,7 @@ var gamingHours = prompt("Enter number of hours Christian games each school nigh
 
 // Calculate 4 week totals of Christian's homework activity on school nights; multiply hours, by 5 days, then by 4 weeks
 var homewrkTotal = homewrkHours * 5 * 4;
-// Calculate 4 week totals of Christian's reading activity on school nights
+// Calculate 4 week totals of Christian's reading activity on school nights; multiply hours, by 5 days, then by 4 weeks
 var readingTotal = readingHours * 5 * 4;
 // Calculate 4 week totals of Christian's gaming activity on school nights
 var gamingTotal = gamingHours * 5 * 4;
