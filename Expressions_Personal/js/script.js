@@ -32,8 +32,8 @@ var activitiesTotal = homewrkString + homewrkTotal + " hours. " +  readingString
 
 
 // Concatenate strings to provide combined total of ALL activities withing a four week period
-var allActivities = "All of this totals " homewrkTotal + readingTotal + gamingTotal + " hours in a four week period"
+var allActivities = " All of this totals " homewrkTotal + readingTotal + gamingTotal + " hours in a four week period.";
 
 
 // Print string into console log
-console.log(activitiesTotal);
+console.log(activitiesTotal + allActivities);
