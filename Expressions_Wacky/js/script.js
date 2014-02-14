@@ -28,15 +28,23 @@ martianInt1 = parseInt(totalMartians - purpleMartians - greenMartians);
 var martianCount = alert("According to your count, there are " + martianInt1 + " orange Martians on the planet.");
 
 
-// Concatenate first string for resulting statement
+// Assignment operator calculates the Martian craters
+var martianCrater1 = 30;
+martianCrater1 -= 10;
+
+var martianCrater2 = 10;
+martianCrater2 /= 2
+
+var martianCrater3 = 10;
+martianCrater3 /= 2
+
+
+// Concatenate first string for resulting statement in console
 var martianString1 = "The number of purple inhabitants living on Mars is " + purpleMartians + ". The number of green inhabitants is " + greenMartians + " and the number of orange inhabitants is " + martianInt1 + ". " + "The total number of inhabitants on the red planet is " + totalMartians + ". Fortunately, Martians are color blind, so they are all one and the same to one another!";
 
+// Concatenate second string for resulting statement in console
+var martianString2 = " The green Martians live in " + martianCrater1 + " of the 30 craters on the red planet." + " " + "The purple Martians claim the " + martianCrater2 + " remaining craters to the North, while the orange Martians claim the " + martianCrater3 + " other craters to the South."
 
 
-// Assignment operator calculates the Martian craters
-var martianCrater = 30;
-martianCrater -= 10;
-
-
-// Print result in console
-console.log(martianString1 + " The purple Martians live in " + martianCrater + " of the 30 craters on the red planet.");
+// Print result in console of the number os Martians inhabiting the planet, along with which craters they reside
+console.log(martianString1 + martianString2)
