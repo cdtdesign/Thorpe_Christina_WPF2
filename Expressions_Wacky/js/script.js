@@ -14,3 +14,6 @@ var martianPop = alert("The total number of Martians on the planet Mars is 2,200
 var totalMartians = 2200;
 // Create prompt that asks users count of purple Martians on the planet
 var purpleMartians = prompt("How many purple Martians do you count on the planet? ", 400);
+// Create prompt that asks users count of green Martians on the planet
+var greenMartians = prompt("How many green Martians do you count on the planet? ", 1000);
+
