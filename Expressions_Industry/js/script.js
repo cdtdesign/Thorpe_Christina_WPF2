@@ -12,5 +12,9 @@ var lunchHours = [1,1,1,1,1];
 // Calculate lunch hours M-F
 var totalLunch = lunchHours[0] + lunchHours[1] + lunchHours[2] + lunchHours[3] + lunchHours[4];
 
+// Enter array of school hours M-F
+var schoolHours = [5,5,5,5,5];
+
+
 // Print total work hours M-F
-console.log(totalWork);
+console.log(totalWork + " " + totalLunch);
