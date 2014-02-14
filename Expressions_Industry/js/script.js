@@ -3,7 +3,9 @@
 // February 13, 2014
 
 // Enter prompt for preparing my son for school M-F
-var schoolPrep = prompt("Enter amount of hours to prepare my son for school M-F")
+var schoolPrep = prompt("Enter amount of hours to prepare my son for school M-F");
+// Parse integer for hours of shcool prep M-F
+var schoolprepInt = schoolPrep * 5;
 
 // Enter array of hours worked M-F
 var workHours = [5,4,5,4,5];
@@ -15,7 +17,7 @@ var totalWork = workHours[0] + workHours[1] + workHours[2] + workHours[3] + work
 var lunchHours = prompt("Enter amount of hours taken for lunch M-F: ",1);
 // Parse integer of lunch hours M-F
 var lunchInt;
-lunchInt = lunchHours * 5
+lunchInt = lunchHours * 5;
 
 
 // Enter array of hours studied M-F
