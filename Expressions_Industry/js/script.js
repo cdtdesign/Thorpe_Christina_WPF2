@@ -18,5 +18,5 @@ var studyHours = [5,5,5,5,5];
 var totalStudy = studyHours[0] + studyHours[1] + studyHours[2] + studyHours[3] + studyHours [4];
 
 
-// Print total work hours M-F
-console.log(totalWork + " " + totalLunch);
+// Print total work, lunch and school hours M-F
+console.log("Monday through Friday I work " + totalWork + " hours, " + "take " + totalLunch + " hours for lunch and make sure to study at least " + totalStudy + " hours for shcool.");
