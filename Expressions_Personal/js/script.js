@@ -11,3 +11,9 @@ var gamingHours = prompt("Enter number of hours Christian games each school nigh
 var homewrkTotal = homewrkHours * 5 * 4;
 var readingTotal = readingHours * 5 * 4;
 var gamingTotal = gamingHours * 5 * 4;
+
+// Create string variables
+var homewrkString = "The amount of homework Christian completes in four weeks is ";
+var readingString = "The amount of reading Christian completes in four weeks is ";
+var gamingString = "The amount of gaming Christian plays in four weeks is ";
+
