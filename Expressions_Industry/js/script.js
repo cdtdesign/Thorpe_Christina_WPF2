@@ -21,6 +21,11 @@ var lunchInt;
 lunchInt = lunchHours * 5;
 
 
+// Enter prompt for helping son with homework
+var homewrkHelp = prompt("Enter time for helping son with homework M-F:",.5);
+
+
+
 // Enter array of hours studied M-F
 var studyHours = [5,5,5,5,5];
 // Calculate school hours M-F
