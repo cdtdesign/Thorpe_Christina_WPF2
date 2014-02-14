@@ -10,3 +10,5 @@
 
 // Create alert that tells the number of total Martian population
 var martianPop = alert("The total number of Martians on the planet Mars is 2,200.");
+// Variable representing total Martian populaion on Mars
+var totalMartians = 2200;
