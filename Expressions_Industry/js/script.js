@@ -9,6 +9,8 @@ var totalWork = workHours[0] + workHours[1] + workHours[2] + workHours[3] + work
 
 // Enter array of lunch hours M-F
 var lunchHours = [1,1,1,1,1];
+// Calculate lunch hours M-F
+var totalLunch = lunchHours[0] + lunchHours[1] + lunchHours[2] + lunchHours[3] + lunchHours[4];
 
 // Print total work hours M-F
 console.log(totalWork);
