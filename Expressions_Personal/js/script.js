@@ -29,4 +29,6 @@ var gamingString = "The amount of gaming Christian plays in four weeks is ";
 // Concatenate strings
 var activitiesTotal = homewrkString + homewrkTotal + " hours. " +  readingString + readingTotal + " hours. " + gamingString + gamingTotal + " hours.";
 
+
+// Print string into console log
 console.log(activitiesTotal);
