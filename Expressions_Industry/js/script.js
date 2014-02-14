@@ -23,7 +23,8 @@ lunchInt = lunchHours * 5;
 
 // Enter prompt for helping son with homework
 var homewrkHelp = prompt("Enter time for helping son with homework M-F:",.5);
-
+// Parse integer for helping son with homework
+var homewrkInt = homewrkHelp * 5;
 
 
 // Enter array of hours studied M-F
