@@ -18,5 +18,8 @@ var purpleMartians = prompt("How many purple Martians do you count on the planet
 // Create prompt that asks users count of green Martians on the planet
 var greenMartians = prompt("How many green Martians do you count on the planet? ", 1000);
 
-//Create parse variable
+// Create parse variable
 var martianInt;
+// Create parse integer that subtracts the number of purple and green Martians from the total Martian population to reveal the number of orange Martians on the planet
+martianInt = parseInt(totalMartians - purpleMartians - greenMartians);
+var martianCount = alert("According to your count, there are " + martianInt + " orange Martians on the planet.");
