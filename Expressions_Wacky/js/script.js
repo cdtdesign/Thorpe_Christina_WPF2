@@ -43,7 +43,7 @@ martianCrater3 /= 2
 var martianString1 = "The number of purple inhabitants living on Mars is " + purpleMartians + ". The number of green inhabitants is " + greenMartians + " and the number of orange inhabitants is " + martianInt1 + ". " + "The total number of inhabitants on the red planet is " + totalMartians + ". Fortunately, Martians are color blind, so they are all one and the same to one another!";
 
 // Concatenate second string for resulting statement in console
-var martianString2 = " The green Martians live in " + martianCrater1 + " of the 30 craters on the red planet." + " " + "The purple Martians claim the " + martianCrater2 + " remaining craters to the North, while the orange Martians claim the " + martianCrater3 + " other craters to the South."
+var martianString2 = " The green Martians live in " + martianCrater1 + " of the 30 craters on the red planet." + " " + "The purple Martians claim the " + martianCrater2 + " remaining craters to the North, while the orange Martians claim the " + martianCrater3 + " other craters to the South.";
 
 
 // Print result in console of the number os Martians inhabiting the planet, along with which craters they reside
