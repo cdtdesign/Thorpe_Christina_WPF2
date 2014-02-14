@@ -30,9 +30,12 @@ var gamingString = "The amount of gaming Christian plays in four weeks is ";
 // Concatenate strings to total each activity, in a four week period
 var activitiesTotal = homewrkString + homewrkTotal + " hours. " +  readingString + readingTotal + " hours. " + gamingString + gamingTotal + " hours.";
 
+// Create integer parser
+var activityInt;
+activityInt = parseInt(homewrkTotal + readingTotal + gamingTotal);
 
 // Concatenate strings to provide combined total of ALL activities withing a four week period
-var allActivities = " All of this totals " homewrkTotal + readingTotal + gamingTotal + " hours in a four week period.";
+var allActivities = " All of these activities total " + activityInt + " hours in a four week period.";
 
 
 // Print string into console log
