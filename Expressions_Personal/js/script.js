@@ -23,6 +23,7 @@ var gamingTotal = gamingHours * 5 * 4;
 var homewrkString = "The amount of homework Christian completes in four weeks is ";
 // Create reading string variable
 var readingString = "The amount of reading Christian completes in four weeks is ";
+// Create gaming string variable
 var gamingString = "The amount of gaming Christian plays in four weeks is ";
 
 
