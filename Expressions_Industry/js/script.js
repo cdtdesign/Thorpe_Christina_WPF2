@@ -33,7 +33,7 @@ var studyHours = [5,5,5,5,5];
 var totalStudy = studyHours[0] + studyHours[1] + studyHours[2] + studyHours[3] + studyHours [4];
 
 // Concatenation of strings and variables for print console result
-var myweeklyRoutine = "Monday through Friday, my weekly routine is: \n- spending " + schoolprepInt + " morning hours preparing my son for school; \n- working for a total of " + totalWork + " hours; " + "\n- taking " + lunchInt + " hours for meals at lunchtime;" + "\n- helping my son with his homework for " + homewrkInt + " hours; and \n- making sure to study for at least " + totalStudy + " hours for school"
+var myweeklyRoutine = "Monday through Friday, my weekly routine is: \n- spending " schoolprepInt + " morning hours preparing my son for school; \n- working for a total of " + totalWork + " hours; " + "\n- taking " + lunchInt + " hours for meals at lunchtime;" + "\n- helping my son with his homework for " + homewrkInt + " hours; and \n- making sure to study for at least " + totalStudy + " hours for school"
 
 // Print total school prep, work, lunch and school hours M-F
 console.log(myweeklyRoutine);
