@@ -11,19 +11,15 @@ var discountTicket = "$7";
 var customerAge = Number(prompt("Enter age of customer:"));
 var movieTime = Number(prompt("Enter time of movie:"));
 
-// List condition for children patrons
-if(customerAge > 0 && customerAge < 10){
-    console.log("The ticket price is " + discountTicket);
+// List conditions for children & senior patrons
+if((customerAge > 0 && customerAge < 10) || (customerAge >= 55))
+{
+    console.log("The ticket price is " + discountTicket)
 }
-
-//List condition for senior patrons
-if(customerAge >= 55){
-    console.log("The ticket price is " + discountTicket);
-}
-
 // List condition for movie matinee
-if(movieTime >= 3 && movieTime <= 5){
-    console.log("The ticket price is " + discountTicket);
+if(!(movieTime >= 3 && movieTime <= 5))
+{
+    console.log("The ticket price is " + regTicket);
 }else{
-    console.log("The ticket price is " + regTicket)
+    console.log("The ticket price is " + discountTicket)
 }
