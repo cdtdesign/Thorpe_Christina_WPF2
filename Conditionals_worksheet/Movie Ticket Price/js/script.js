@@ -15,10 +15,10 @@ var movieTime = Number(prompt("Enter time of movie:"));
 if((customerAge > 0 && customerAge < 10) || (customerAge >= 55))
 {
 // Code for discounted child/senior movie ticket
-    console.log("The ticket price is " + discountTicket)
+    console.log("The discounted ticket price is " + discountTicket)
 }else if (movieTime >= 3 && movieTime <= 5){
 // Code for discounted movie matinee ticket
-    console.log("The ticket price is " + discountTicket)
+    console.log("The discounted ticket price is " + discountTicket)
 }else{
 // Code for non-discounted ticket
     console.log("The ticket price is " + regTicket);
