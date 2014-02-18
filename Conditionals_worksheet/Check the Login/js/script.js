@@ -20,3 +20,7 @@ var userpassEntry = prompt("Enter password: ", encryptPass);
 if(usernameEntry = userName && userpassEntry = userPass){
 // Result of correctly entered login
     console.log("Welcome, FullSail!");
+// Result of incorrect username
+}else if(!(usernameEntry = userName)){
+    console.log("User not found.");
+}
