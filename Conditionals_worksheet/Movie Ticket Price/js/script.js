@@ -7,3 +7,6 @@
 var regTicket = "$12";
 var discountTicket = "$7";
 
+// List variables
+var customerAge = Number(prompt("Enter age of customer:"));
+var movieTime = Number(prompt("Enter time of movie:"));
