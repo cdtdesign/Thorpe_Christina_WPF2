@@ -23,4 +23,7 @@ if(usernameEntry = userName && userpassEntry = userPass){
 // Result of incorrect username
 }else if(!(usernameEntry = userName)){
     console.log("User not found.");
+// Result of incorrect password
+}else if(!(userpassEntry = userPass)){
+    console.log("Password does NOT match our records.");
 }
