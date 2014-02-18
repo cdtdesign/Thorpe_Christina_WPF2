@@ -16,3 +16,7 @@ var encryptPass = "********";
 var usernameEntry = prompt("Enter username: ", encryptName);
 var userpassEntry = prompt("Enter password: ", encryptPass);
 
+// Conditions for user login
+if(usernameEntry = userName && userpassEntry = userPass){
+// Result of correctly entered login
+    console.log("Welcome, FullSail!");
