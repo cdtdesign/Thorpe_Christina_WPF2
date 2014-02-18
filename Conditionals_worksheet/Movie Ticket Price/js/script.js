@@ -10,3 +10,8 @@ var discountTicket = "$7";
 // List variables
 var customerAge = Number(prompt("Enter age of customer:"));
 var movieTime = Number(prompt("Enter time of movie:"));
+
+// List condition for children patrons
+if(customerAge > 0 && customerAge < 10){
+    console.log("The ticket proce is " + discountTicket);
+}
