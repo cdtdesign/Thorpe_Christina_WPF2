@@ -4,7 +4,7 @@
 
 
 // Create alert statement that provides user with username and password
-var userLogin = alert("Username is: FullSail" + "\nPassword is: fullsail1979" + "\nBoth are case-sensative.");
+var userLogin = alert("Username is: " + userName + "\nPassword is: " + userPass + "\nBoth are case-sensative.");
 
 // Correct username and password
 var userName = "FullSail";
@@ -16,4 +16,3 @@ var encryptPass = "********";
 var usernameEntry = prompt("Enter username: ", encryptName);
 var userpassEntry = prompt("Enter password: ", encryptPass);
 
-console.log(usernameEntry + userpassEntry);
