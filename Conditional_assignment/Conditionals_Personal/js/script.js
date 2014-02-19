@@ -9,8 +9,8 @@ var schoolDistance = .8 * 4; // 3.2 miles per day
 var driveTime = 5 * 4; // 20 minutes per day
 var bikeTime = 15 * 4; // 60 minutes per day
 // Prompt for weather forecast of sunny vs. rainy school days---determining factor of biking vs. driving
-var sunnyDays = prompt("How many sunny days in this week's forecast? ", 3);
-var rainyDays = prompt("How many rainy days in this week's forecast? ", 2);
+var sunnyDays = prompt("How many sunny days in this week's forecast? ");
+var rainyDays = Number(prompt("How many rainy days in this week's forecast? ", 5 - sunnyDays));
 
 // Result variables
 var bikeDays = "If there are " + sunnyDays + " sunny days this week, a total of " + bikeTime * sunnyDays + " minutes of cardio will have been biked to school and " + schoolDistance * rainyDays + " miles will have been driven.";
