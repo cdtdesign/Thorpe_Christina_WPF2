@@ -23,15 +23,10 @@ if(sunnyDays == blanksunnyDays){
 var rainyDays = Number(prompt("How many rainy school days in this week's forecast?", 5 - sunnyDays));
 
 // Result variables
-var bikeDays = "There are " + sunnyDays + " sunny days this week, a total of " + bikeTime * sunnyDays + " minutes of cardio will have been biked to school and " + schoolDistance * rainyDays + " miles will have been driven.";
+var bikeDays = "Fortunately, there will be " + sunnyDays + " favorable weather days this week, allowing " + bikeTime * sunnyDays + " minutes of cardio from biking to school and only " + schoolDistance * rainyDays + " miles to be driven.";
 
-var driveDays = "There are " + rainyDays + " rainy days this week, a total of " + schoolDistance * rainyDays + " miles will have been driven to school and " + bikeTime * sunnyDays + " minutes of cardio biked.";
+var driveDays = "Unfortunately, there will be " + rainyDays + " unfavorable weather days this week, causing a total of " + schoolDistance * rainyDays + " miles to be driven to school and only " + bikeTime * sunnyDays + " minutes of cardio to be biked.";
 
-// Minutes of cardio vs. mileage for the school week
-if(sunnyDays >= 3){
-// Minutes of cardio biked in a school week
-    console.log(bikeDays);
-}else{
-//Mileage driven in a school week
-    console.log(driveDays);
-}
+// Ternary Statement: Minutes of cardio vs. mileage for the school week
+(sunnyDays >= 3) ? console.log(bikeDays) :
+console.log(driveDays);
