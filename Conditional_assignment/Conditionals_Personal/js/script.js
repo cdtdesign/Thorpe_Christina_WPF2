@@ -13,7 +13,9 @@ var sunnyDays = prompt("How many sunny days in this week's forecast? ", 3);
 var rainyDays = prompt("How many rainy days in this week's forecast? ", 2);
 // Minutes of cardio vs. mileage for the school week
 if(sunnyDays >= 3){
+// Minutes of cardio biked in a school week
     console.log("A total of " + bikeTime * sunnyDays + " minutes of cardio will have been biked.");
 }else{
+//Mileage driven in a school week
     console.log("A total of " + schoolDistance * rainyDays + " miles will have been driven.");
 }
