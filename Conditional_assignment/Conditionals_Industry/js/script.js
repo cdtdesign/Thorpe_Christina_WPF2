@@ -45,8 +45,8 @@ var webDesign$$$ = webDesignRate * webHours;
 var logoDesign$$$ = logoFlatRate * logoProjects;
 
 // Result strings
-var graphicString = "Total income from graphic design this month is $" + graphicDesign$$$ + ".00.";
-var webString = "\nTotal income from web design this month is $" + webDesign$$$ + ".00.";
-var logoString = "\nTotal income from logo design this month is $" + logoDesign$$$ + ".00.";
+var graphicString = "Total income from graphic design this month is $" + graphicDesign$$$ + ".";
+var webString = "\nTotal income from web design this month is $" + webDesign$$$ + ".";
+var logoString = "\nTotal income from logo design this month is $" + logoDesign$$$ + ".";
 
 console.log(graphicString + webString + logoString);
