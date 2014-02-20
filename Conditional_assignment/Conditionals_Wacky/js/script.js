@@ -6,10 +6,18 @@
 // Living in the last standing house made of brick, one day the three little piggys went out for some items. How many items did they successfully bring back home?
 
 // Number of items piggy #1 got
-var firstLittlePiggy = parseInt(prompt("PIGGY #1: How many eggs did the fist little piggy buy from the market?"));
+var firstPiggysStuff = parseInt(prompt("PIGGY #1: How many of the 6 eggs did the big bad wolf take from the first little piggy on his way home from the market?"));
 
 // Number of items piggy #2 got
-var secondLittlePiggy = parseInt(prompt("PIGGY #2: \nHow many lattes did the second little piggy buy from Starbucks?"));
+var secondPiggysStuff = parseInt(prompt("PIGGY #2: \nHow many of the 3 lattes did the big bad wolf take from the second little piggy on his way home from Starbucks?"));
 
 // Number of items piggy #3 got
-var thirdLittlePiggy = parseInt(prompt("PIGGY #3: \nHow many flowers did the third little piggy get from the park?"));
+var thirdPiggysStuff = parseInt(prompt("PIGGY #3: \nHow many of the 6 flowers did the big bad wolf take from the third little piggy pick on his way home from the park?"));
+
+var bigBadWolf;
+
+// Big Bad Wolf stops piggys #1 and #3 to take some of their items
+if(firstPiggysStuff == "" || firstPiggysStuff >= 7){
+    firstPiggysStuff = parseInt(prompt("PIGGY #1: How many of the 6 eggs did the big bad wolf take from the first little piggy on his way home from the market?"));
+
+}
