@@ -9,7 +9,7 @@ var webDesignRate = 75; // Web design hourly rate
 var logoFlatRate = 500; // Logo design flat rate
 
 // Prompt asking how many hours of graphic design this month
-var graphicHours = Number(prompt("Enter print design hours this month: \n(avg is 80-100 hrs)"));
+var graphicHours = parseInt(prompt("Enter print design hours this month: \n(avg is 80-100 hrs)"));
 
 // "else if" Validation prompt for graphic design hours
 var graphicHrsAgain;
@@ -23,7 +23,7 @@ if(graphicHours == "" || graphicHours <= 69){
 }
 
 // Prompt asking how many hours of web design this month
-var webHours = Number(prompt("Enter web design hours this month: \n(avg is 60-80 hrs)"));
+var webHours = parseInt(prompt("Enter web design hours this month: \n(avg is 60-80 hrs)"));
 
 // "else if" Validation prompt for web design hours
 var webHrsAgain;
@@ -37,7 +37,7 @@ if(webHours == "" || webHours <= 49){
 }
 
 // Prompt asking how many logo projects this month
-var logoProjects = Number(prompt("Enter logo projects this month:"));
+var logoProjects = parseInt(prompt("Enter logo projects this month:"));
 
 // calculate result variables
 var graphicDesign$$$ = graphicDesignRate * graphicHours;
@@ -45,6 +45,8 @@ var webDesign$$$ = webDesignRate * webHours;
 var logoDesign$$$ = logoFlatRate * logoProjects;
 
 // Result strings
-var graphicString = "Total income from graphic design this month is: " + graphicDesign$$$;
-var webString = "Total income from web design this month is: " + webDesign$$$;
-var logoString = "Total income from logo design this month is: " + logoDesign$$$;
+var graphicString = "Total income from graphic design this month is $ " + graphicDesign$$$;
+var webString = "\nTotal income from web design this month is $ " + webDesign$$$;
+var logoString = "\nTotal income from logo design this month is $ " + logoDesign$$$;
+
+console.log(graphicString + webString + logoString);
