@@ -4,5 +4,5 @@
 
 
 // Variable of rates for various design projects
-// Print design hourly rate:
-var printDesignRate = 65;
+var printDesignRate = 65; // Print design hourly rate
+
