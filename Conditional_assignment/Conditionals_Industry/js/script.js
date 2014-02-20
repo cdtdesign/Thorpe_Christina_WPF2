@@ -39,5 +39,7 @@ if(webHours == "" || webHours <= 49){
 // Prompt asking how many logo projects this month
 var logoProjects = Number(prompt("Enter logo projects this month:"));
 
-
-
+// calculate result variables
+var graphicDesign$$$ = graphicDesignRate * graphicHours;
+var webDesign$$$ = webDesignRate * webHours;
+var logoDesign$$$ = logoFlatRate * logoProjects;
