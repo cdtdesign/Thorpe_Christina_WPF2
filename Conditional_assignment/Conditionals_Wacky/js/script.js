@@ -20,4 +20,6 @@ var bigBadWolf;
 if(firstPiggysStuff == "" || firstPiggysStuff >= 7){
     firstPiggysStuff = parseInt(prompt("PIGGY #1: How many of the 6 eggs did the big bad wolf take from the first little piggy on his way home from the market?"));
 
-}
+// First little piggy result variable
+var firstLittlePiggy = "The first little piggy lost " + firstPiggysStuff + " eggs to the big bad wolf.";
+
