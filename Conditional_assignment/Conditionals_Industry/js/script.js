@@ -9,35 +9,35 @@ var webDesignRate = 75; // Web design hourly rate
 var logoFlatRate = 500; // Logo design flat rate
 
 // Prompt asking how many hours of graphic design this month
-var graphicHours = parseFloat(prompt("Enter print design hours this month: \n(avg is 80-100 hrs)"));
+var graphicHours = parseInt(prompt("Enter graphic design hours this month: \n(avg is 80-100 hours)"));
 
 // "else if" Validation prompt for graphic design hours
-var graphicHrsAgain;
 // Logical & relational operators used here
-if(graphicHours == "" || graphicHours <= 69){
-    graphicHrsAgain = parseInt(prompt("Wait! Check amount of hours! \nShould be between:", 70 + "-" + 130))
+if(graphicHours != "" || graphicHours <= 69){
+    alert("Wait! Check amount of hours! \nShould be between 70-130");
+    graphicHours = parseInt(prompt("Enter graphic design hours this month: \n(average is 80-100 hours)", 80));
 }else if(graphicHours >= 131){ // Relational operator used here
-    graphicHrsAgain = Number(prompt("Wait! Check amount of hours! \nShould be no more than:", 130 + " hours or less."))
+    graphicHours = parseInt(prompt("Wait! Check amount of hours! \nShould be no more than:", 130 + " hours or less."))
 }else{
 
 }
 
 // Prompt asking how many hours of web design this month
-var webHours = parseInt(prompt("Enter web design hours this month: \n(avg is 60-80 hrs)"));
+var webHours = Number(prompt("Enter web design hours this month: \n(average is 60-80 hours)"));
 
 // "else if" Validation prompt for web design hours
-var webHrsAgain;
 // Logical & relational operators used here
 if(webHours == "" || webHours <= 49){
-    webHrsAgain = Number(prompt("Wait! Check amount of hours! \nShould be between:", 50 + "-" + 90))
+    alert("Wait! Check amount of hours! \nShould be between 50-90");
+    webHours = Number(prompt("Enter web design hours this month: \n(avg is 60-80 hours)", 80));
 }else if(webHours >= 91){ // Relational operator used here
-    webHrsAgain = Number(prompt("Wait! Check amount of hours! \nShould be no more than:", 90 + " hours or less."))
+    webHours = Number(prompt("Wait! Check amount of hours! \nShould be no more than:", 90 + " hours or less."))
 }else{
 
 }
 
 // Prompt asking how many logo projects this month
-var logoProjects = parseInt(prompt("Enter logo projects this month:"));
+var logoProjects = Number(prompt("Enter logo projects this month: \n(average is 1-5 logos)"));
 
 // calculate result variables
 var graphicDesign$$$ = graphicDesignRate * graphicHours;
@@ -48,5 +48,6 @@ var logoDesign$$$ = logoFlatRate * logoProjects;
 var graphicString = "Total income from graphic design this month is $" + graphicDesign$$$ + ".";
 var webString = "\nTotal income from web design this month is $" + webDesign$$$ + ".";
 var logoString = "\nTotal income from logo design this month is $" + logoDesign$$$ + ".";
+
 
 console.log(graphicString + webString + logoString);
