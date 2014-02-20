@@ -1,4 +1,4 @@
-// Conditionals - Industry
+// Conditionals - Industry: Design Income
 // Christina Thorpe
 // February 18, 2014
 
@@ -48,6 +48,8 @@ var logoDesign$$$ = logoFlatRate * logoProjects;
 var graphicString = "Total income from graphic design this month is $" + graphicDesign$$$ + ".";
 var webString = "\nTotal income from web design this month is $" + webDesign$$$ + ".";
 var logoString = "\nTotal income from logo design this month is $" + logoDesign$$$ + ".";
+var ALLdesignString = "\nTotal income of ALL design projects this month is $" + parseInt(graphicDesign$$$ + webDesign$$$ + logoDesign$$$) + ".";
 
+console.log(graphicString + webString + logoString + ALLdesignString);
 
-console.log(graphicString + webString + logoString);
+// The End
