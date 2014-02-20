@@ -23,3 +23,7 @@ if(firstPiggysStuff == "" || firstPiggysStuff >= 7){
 // First little piggy result variable
 var firstLittlePiggy = "The first little piggy lost " + firstPiggysStuff + " eggs to the big bad wolf.";
 
+// Print result of first little piggy
+}else if(firstPiggysStuff <= 6 - 1){
+    console.log(firstLittlePiggy);
+}
