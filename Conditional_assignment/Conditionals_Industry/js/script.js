@@ -43,3 +43,8 @@ var logoProjects = Number(prompt("Enter logo projects this month:"));
 var graphicDesign$$$ = graphicDesignRate * graphicHours;
 var webDesign$$$ = webDesignRate * webHours;
 var logoDesign$$$ = logoFlatRate * logoProjects;
+
+// Result strings
+var graphicString = "Total income from graphic design this month is: " + graphicDesign$$$;
+var webString = "Total income from web design this month is: " + webDesign$$$;
+var logoString = "Total income from logo design this month is: " + logoDesign$$$;
