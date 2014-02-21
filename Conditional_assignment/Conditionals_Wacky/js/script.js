@@ -13,7 +13,13 @@ var firstLittlePiggy = "The first little piggy lost " + firstPiggysStuff + " egg
 
 // Big Bad Wolf stops piggy #1 to take some of his stuff
 if(firstPiggysStuff == ""){
-    Number(prompt("Come'on... everyone knows the wolf ALWAYS takes something. Please enter how many of the 6 eggs were taken."))}
+var firstPiggyNada = Number(prompt("Come'on... everyone knows the wolf ALWAYS takes something. Please enter how many of the 6 eggs were taken."));
+
+// Big bad wolf result variable
+var bigBadWolfA = "The first little piggy lost " + firstPiggyNada + " egg(s) to the big bad wolf.";
+
+    console.log(bigBadWolfA);
+}
 
 // Print result of first little piggy
 else if(firstPiggysStuff <= 6 - 1)
@@ -31,17 +37,23 @@ var secondPiggysStuff = parseInt(prompt("PIGGY #2 GOES TO STARBUCKS: How many of
 var secondLittlePiggy = "The second little piggy lost " + secondPiggysStuff + " latte(s) to the big bad wolf.";
 
 // Big Bad Wolf stops piggy #2 to take some of his stuff
-if(secondPiggysStuff == ""){
-    Number(prompt("Come'on... everyone knows the wolf ALWAYS takes something. Please enter how many lattes were taken."))
+if(secondPiggysStuff != ""){
+var secondPiggyNada = Number(prompt("Come'on... everyone knows the wolf ALWAYS takes something. Please enter how many lattes were taken."));
 
-    if(secondPiggysStuff == "3"){
-        console.log("Well, what you know! The second little piggy made it home with all 3 lattes!")
-    }
+// Big bad wolf result variable
+var bigBadWolfB = "The second little piggy lost " + secondPiggyNada + " latte(s) to the big bad wolf.";
+
+    console.log(bigBadWolfB);
+}
 
 // Print result of second little piggy
-    else if(secondPiggysStuff <= 3 - 1)
-    {
-        console.log(secondLittlePiggy);
-    }else{
+else if(secondPiggysStuff <= 3 - 1)
+{
+    console.log(secondLittlePiggy);
+}
+else{
 
-    }
+}
+
+// Number of items piggy #3 had taken by the wolf
+    var thirdPiggysStuff = parseInt(prompt("PIGGY #3 GOES TO THE PARK: How many of the 6 flowers picked did the big bad wolf take?"));
