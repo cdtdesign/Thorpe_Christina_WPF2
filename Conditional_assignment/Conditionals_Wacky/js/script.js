@@ -30,3 +30,11 @@ var secondPiggysStuff = parseInt(prompt("PIGGY #2 GOES TO STARBUCKS: How many of
 // Second little piggy result variable
 var secondLittlePiggy = "The second little piggy lost " + secondPiggysStuff + " latte(s) to the big bad wolf.";
 
+// Big Bad Wolf stops piggy #2 to take some of his stuff
+if(secondPiggysStuff == ""){
+    Number(prompt("Come'on... everyone knows the wolf ALWAYS takes something. Please enter how many lattes were taken."))
+
+    if(secondPiggysStuff == "3"){
+        console.log("Well, what you know! The second little piggy made it home with all 3 lattes!")
+    }
+
