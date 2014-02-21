@@ -56,4 +56,22 @@ else{
 }
 
 // Number of items piggy #3 had taken by the wolf
-    var thirdPiggysStuff = parseInt(prompt("PIGGY #3 GOES TO THE PARK: How many of the 6 flowers picked did the big bad wolf take?"));
+var thirdPiggysStuff = parseInt(prompt("PIGGY #3 GOES TO THE PARK: How many of the 6 flowers picked did the big bad wolf take?"));
+
+// Third little piggy result variable
+var thirdLittlePiggy = "The third little piggy lost " + thirdPiggysStuff + " latte(s) to the big bad wolf.";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
