@@ -35,7 +35,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="3291" selection-end="3291" vertical-scroll-proportion="0.9801061" vertical-offset="836" max-vertical-offset="1665">
+            <state line="85" column="0" selection-start="3508" selection-end="3508" vertical-scroll-proportion="0.9204244" vertical-offset="956" max-vertical-offset="1740">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -192,7 +192,7 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -202,7 +202,6 @@
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
@@ -290,7 +289,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="3291" selection-end="3291" vertical-scroll-proportion="0.9801061" vertical-offset="836" max-vertical-offset="1665">
+        <state line="85" column="0" selection-start="3508" selection-end="3508" vertical-scroll-proportion="0.9204244" vertical-offset="956" max-vertical-offset="1740">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

@@ -38,10 +38,10 @@ var secondLittlePiggy = '\nOn the way home from Starbucks, the second little pig
 
 // Big Bad Wolf stops piggy #2 to take some of his stuff
 if(secondPiggysStuff != ""){
-var secondPiggyNada = Number(prompt("Come'on... everyone knows the wolf ALWAYS takes something. Please enter how many lattes were taken."));
+    var secondPiggyNada = Number(prompt("Come'on... everyone knows     the wolf ALWAYS takes something. Please enter how many lattes      were taken."));
 
 // Big bad wolf result variable
-var bigBadWolfB = '\nOn the way home from Starbucks, the second little piggy lost ' + secondPiggyNada + ' latte(s) \nto the big bad wolf, and cried "whaaaaahhhh!" all the way home.';
+var bigBadWolfB = '\nOn the way home from Starbucks, the second     little piggy lost ' + secondPiggyNada + ' latte(s) \nto the        big bad wolf, and cried "whaaaaahhhh!" all the way home.';
 
     console.log(bigBadWolfB);
 }
@@ -79,4 +79,7 @@ else if(thirdPiggysStuff <= 6 - 1)
 else{
 
 }
+
+// Total items brought home by the three little piggys
+var totalPiggysStuff = firstPiggysStuff + firstPiggyNada + secondPiggysStuff + secondPiggyNada + thirdPiggysStuff + thirdPiggyNada - 15;
 
