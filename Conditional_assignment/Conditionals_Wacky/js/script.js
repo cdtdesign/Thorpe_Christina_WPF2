@@ -38,3 +38,10 @@ if(secondPiggysStuff == ""){
         console.log("Well, what you know! The second little piggy made it home with all 3 lattes!")
     }
 
+// Print result of second little piggy
+    else if(secondPiggysStuff <= 3 - 1)
+    {
+        console.log(secondLittlePiggy);
+    }else{
+
+    }
