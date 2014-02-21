@@ -61,3 +61,22 @@ var thirdPiggysStuff = parseInt(prompt("PIGGY #3 GOES TO THE PARK: How many of t
 // Third little piggy result variable
 var thirdLittlePiggy = '\nOn the way home from the park, the third little piggy lost ' + thirdPiggysStuff + ' flower(s) \nto the big bad wolf, and cried "whaaaaahhhh!" all the way home.';
 
+// Big Bad Wolf stops piggy #3 to take some of his stuff
+if(thirdPiggysStuff != ""){
+    var thirdPiggyNada = Number(prompt("Come'on... everyone knows the wolf ALWAYS takes something. Please enter how many flowers were taken."));
+
+// Big bad wolf result variable
+    var bigBadWolfC = '\nOn the way home from the park, the third little piggy lost ' + thirdPiggyNada + ' flowers(s) \nto the big bad wolf, and cried "whaaaaahhhh!" all the way home.';
+
+    console.log(bigBadWolfC);
+}
+
+// Print result of second little piggy
+else if(thirdPiggysStuff <= 6 - 1)
+{
+    console.log(thirdLittlePiggy);
+}
+else{
+
+}
+
