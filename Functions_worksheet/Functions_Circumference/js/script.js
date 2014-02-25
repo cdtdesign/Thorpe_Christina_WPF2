@@ -17,3 +17,7 @@ var inches1 = 5
 var inches2 = 6
 var inches3 = 7
 
+// Define arguments
+circleCircum(inches1);
+circleCircum(inches2);
+circleCircum(inches3);
