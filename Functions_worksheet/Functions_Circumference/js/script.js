@@ -16,7 +16,7 @@ var circleTotal = calcCircum(radius3);
 // Function container with parameters (C = 2∏r)
 function calcCircum(radius){
     var circleCircum = 2 * 3.14 * radius
-    // Print function to the console
     return circleCircum; // needs to be stored outside the function
 }
+// Print function to the console
 console.log("The circumference of the circle is " + circleTotal + ".");
