@@ -15,6 +15,7 @@ var circleTotal = calcCircum(radius3);
 
 // Function container with parameters (C = 2∏r)
 function calcCircum(radius){
+// Calculation variable
     var circleCircum = 2 * 3.14 * radius
     return circleCircum; // needs to be stored outside the function
 }
