@@ -18,5 +18,3 @@ function calcArea(){
 
 // Function invocation OR "function call" OR "calling the function"
 calcArea();
-
-// Wi
