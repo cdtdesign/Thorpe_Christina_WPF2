@@ -7,3 +7,9 @@ var bear = 800
 var rabbit = 15
 var monkey = 60
 
+
+// Function container with parameters
+function calcStings(animal){
+
+
+}
