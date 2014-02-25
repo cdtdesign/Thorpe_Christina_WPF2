@@ -7,7 +7,8 @@
 
 // Function container with parameters
 function circleCircum(inches){ // Parameter: C = 2∏r
-    var circleCircum = inches * 3.14 * rad
+    var circleCircum = inches * 3.14 * radius
+    // Print function to the console
+    console.log("The circumference of the circle is " + circleCircum + " inches.")
 }
-
 
