@@ -12,3 +12,8 @@ function circleCircum(inches){ // Parameter: C = 2∏r
     console.log("The circumference of the circle is " + circleCircum + " inches.")
 }
 
+// Declare variables
+var inches1 = 5
+var inches2 = 6
+var inches3 = 7
+
