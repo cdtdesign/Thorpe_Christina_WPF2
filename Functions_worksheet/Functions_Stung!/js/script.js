@@ -10,6 +10,7 @@ var monkey = 60
 
 // Function container with parameters
 function calcStings(animal){
-
+// Calculation variable
+    var totalStings = 8.666666667 * animal
 
 }
