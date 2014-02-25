@@ -5,7 +5,10 @@
 
 // Calculate the circumference of a circle
 
-
+// Define arguments
+circleCircum(radius1);
+circleCircum(radius2);
+circleCircum(radius3);
 
 // Function container with parameters
 function circleCircum(radius){ // Parameter: C = 2∏r
