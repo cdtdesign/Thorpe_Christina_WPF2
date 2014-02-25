@@ -17,6 +17,7 @@ var circleTotal = calcCircum(radius3);
 function calcCircum(radius){
 // Calculation variable
     var circleCircum = 2 * 3.14 * radius
+// Statement to send info outside of function to print console
     return circleCircum; // needs to be stored outside the function
 }
 // Print function to the console
