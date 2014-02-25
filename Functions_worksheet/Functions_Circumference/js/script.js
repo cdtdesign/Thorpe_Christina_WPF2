@@ -19,4 +19,4 @@ function calcCircum(radius){
     // Print function to the console
     return circleCircum; // needs to be stored outside the function
 }
-console.log("The circumference of the circle is " + circleTotal + " inches.");
+console.log("The circumference of the circle is " + circleTotal + ".");
