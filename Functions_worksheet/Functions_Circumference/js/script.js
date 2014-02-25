@@ -5,6 +5,8 @@
 
 // Calculate the circumference of a circle
 
+
+
 // Function container with parameters
 function circleCircum(radius){ // Parameter: C = 2∏r
     var circleCircum = 2 * 3.14 * radius
@@ -17,8 +19,5 @@ var radius1 = 5
 var radius2 = 6
 var radius3 = 7
 
-// Define arguments
-circleCircum(radius1);
-circleCircum(radius2);
-circleCircum(radius3);
 
+console.log("The circumference of the circle is " + circleCircum + " inches.")
