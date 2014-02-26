@@ -12,5 +12,6 @@ var monkey = 60
 function calcStings(animal){
 // Calculation variable
     var totalStings = 8.666666667 * animal
-
+// Statement to send info outside of function to print console
+    return totalStings;
 }
