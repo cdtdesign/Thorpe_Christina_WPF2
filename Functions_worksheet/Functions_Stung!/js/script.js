@@ -18,3 +18,5 @@ function calcStings(animal){
 // Result variable
 var beeStings = calcStings(bear);
 
+// Print function to console
+console.log("It takes " + beeStings + " to kill this animal.");
