@@ -16,7 +16,7 @@ function calcStings(animal){
     return totalStings;
 }
 // Result variable
-var beeStings = calcStings(rabbit);
+var beeStings = calcStings(monkey);
 
 // Print function to console
 console.log("It takes " + beeStings + " bee stings to kill this animal.");
