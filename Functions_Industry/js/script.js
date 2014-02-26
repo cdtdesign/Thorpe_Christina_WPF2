@@ -11,6 +11,8 @@ var projectMgrCost = 20; // Current project mgmt is thru Basecamp
 
 // Create function container with parameters
 function calcServicesTot(cost){
-// Claculating variable
+// Calculating variable
     var calcServicesTot = cost * time
+// Return statement to send info outside of function for output
+    return calcServicesTot;
 }
