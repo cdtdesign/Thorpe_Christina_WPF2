@@ -15,3 +15,6 @@ function calcStings(animal){
 // Statement to send info outside of function to print console
     return totalStings;
 }
+// Result variable
+var beeStings = calcStings(bear);
+
