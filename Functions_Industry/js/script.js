@@ -9,10 +9,13 @@ var dataStorageCost = 10; // Current data storage is DropBox
 var projectInvCost = 12; // Current invoicing is thru Harvest
 var projectMgrCost = 20; // Current project mgmt is thru Basecamp
 
+// Add prompt variable for user to input amount of time in months
+var amountOfTime = prompt("Enter number of months of service: ");
+
 // Create function container with parameters
 function calcServicesTot(cost){
 // Calculating variable
-    var calcServicesTot = cost * time
+    var calcServicesTot = cost * amountOfTime
 // Return statement to send info outside of function for output
     return calcServicesTot;
 }
