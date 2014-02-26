@@ -9,3 +9,7 @@ var dataStorageCost = 10; // Current data storage is DropBox
 var projectInvCost = 12; // Current invoicing is thru Harvest
 var projectMgrCost = 20; // Current project mgmt is thru Basecamp
 
+// Create function container with parameters
+function calcServicesTot(cost){
+    var calcServicesTot = cost * time
+}
