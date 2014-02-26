@@ -2,8 +2,8 @@
 // Christina Thorpe
 // February 26, 2014
 
-// Monthly business data service cost variables
-var dataStorage = 10; // Currently DropBox
-var projectInvoicing = 12; // Currently Harvest
-var projectManager = 20; // Currently Basecamp
+// Monthly business data services cost variables
+var dataStorageCost = 10; // Current data storage is DropBox
+var projectInvCost = 12; // Current invoicing is thru Harvest
+var projectMgrCost = 20; // Current project mgmt is thru Basecamp
 
