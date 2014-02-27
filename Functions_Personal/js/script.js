@@ -7,9 +7,7 @@
 
 // Prompt variables for sleep time
 var sleepStart = prompt("Time fell asleep? ", 11);
-var sleepAMPM = prompt("a = AM | p = PM");
-
-// Create normal named function container
-function hoursSlept(){
-
-}
+var sleepAMPM1 = prompt("AM or PM?", "PM");
+// Prompt variables for wake up time
+var sleepEnd = prompt("Time woken up?", 6);
+var sleepAMPM2 = prompt("AM or PM?", "AM");
