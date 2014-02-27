@@ -15,4 +15,9 @@ var sleepAMPM2 = prompt("AM or PM?", "AM");
 // Create conditional for AM selection on Sleep Start
 if(sleepAMPM1 === "AM" || sleepAMPM1 === "am"){  // Logical operator included
     var timeAsleep = (parseInt(sleepStart) + 12);
+
+// Conditional for PM selection on Sleep Start
+}
+if(sleepAMPM1 === "PM" || sleepAMPM1 === "pm"){
+    var timeAsleep = (parseInt(sleepStart));
 }
