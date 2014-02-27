@@ -33,7 +33,8 @@ var string2 = " over three months.";
 var string3 = " over six months.";
 var string4 = " over nine months.";
 var string5 = " over a one year period.";
-var string6 = "Weekly business data services aveage ";
+var string6 = "Weekly business data services average is $";
+var string7 = "Monthly business data services average is $";
 
 // 1st conditional statement for 3 months of service
 if(c === 126){
@@ -52,11 +53,9 @@ if(c === 378){
 }
 
 // Prompt that determines weekly/monthly data services
-var serviceAvg = prompt('Enter "w" for weekly average; "m" for a monthly average.', "w");
+var serviceAvg = prompt('Enter "w" for weekly service average OR \n"m" for monthly average.', "m");
 
 // Variables for conditionals on average
-var threeMoAvg = 126/3*12/52;
-var sixMoAvg = 252/6*12/52;
-var nineMoAvg = 378/9*12/52;
-var twelveMoAvg = 504/52;
+var weeklyAvg = 504/52;
+var monthlyAvg = 504/12;
 
