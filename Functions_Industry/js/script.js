@@ -24,11 +24,12 @@ var months9 = 9;
 var months12 = 12;
 
 // Arguments for function calc
-var c = total(10, 12, 20, months6);
+var c = total(10, 12, 20, months12);
 var string1 = "Monthly business data services total $";
 var string2 = " over three months.";
 var string3 = " over six months.";
 var string4 = " over nine months.";
+var string5 = " over a one year period.";
 
 // 1st conditional statement for 3 months of service
 if(c === 126){
@@ -41,4 +42,7 @@ if(c === 252){
 // 3rd conditional statement for 9 mos of service
 if(c === 378){
     console.log(string1 + c + string4);
+// 4th conditional statement for 12 mos of service
+}else if (c >= 379){
+    console.log(string1 + c + string5);
 }
