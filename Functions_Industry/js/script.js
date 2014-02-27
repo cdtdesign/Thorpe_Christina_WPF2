@@ -8,7 +8,7 @@
 
 // Add prompt that contribute number of years to end calc
 /*
-var amountOfTime = prompt("Enter number of years: ");
+var amountOfTime = prompt("Enter number of months: ");
 */
 
 // Create function container with parameters
@@ -26,5 +26,10 @@ var months12 = 12;
 // Arguments for function calc
 var c = total(10, 12, 20, months3);
 var string1 = "Monthly business data services total $";
+var string2 = " over three months.";
+console.log(string1 + c);
 
-console.log(string1 + c + ".");
+// Conditional statement
+if(c === 126){
+    console.log(string2);
+}
