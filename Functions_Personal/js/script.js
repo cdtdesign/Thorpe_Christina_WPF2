@@ -6,10 +6,10 @@
 // Calculate number of hours slept
 
 // Prompt variables for sleep time
-var sleepStart = prompt("Time fell asleep? ", 11);
+var sleepStart = prompt("What time did you fall asleep? ", 11);
 var sleepAMPM1 = prompt("AM or PM?", "PM");
 // Prompt variables for wake up time
-var sleepEnd = prompt("Time woken up?", 6);
+var sleepEnd = prompt("What time did you wake up?", 6);
 var sleepAMPM2 = prompt("AM or PM?", "AM");
 
 // Create conditional for AM selection on Sleep Start
