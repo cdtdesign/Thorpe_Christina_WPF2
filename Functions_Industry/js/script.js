@@ -25,6 +25,7 @@ var months12 = 12;
 
 // Arguments for function calc
 var c = total(10, 12, 20, months12);
+// Variable of string statement for function output to console
 var string1 = "Monthly business data services total $";
 
 // Variable strings for conditionals
