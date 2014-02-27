@@ -28,11 +28,12 @@ var c = total(10, 12, 20, months12);
 // Variable of string statement for function output to console
 var string1 = "Monthly business data services total $";
 
-// Variable strings for conditionals
+// Variable strings for service cost conditionals
 var string2 = " over three months.";
 var string3 = " over six months.";
 var string4 = " over nine months.";
 var string5 = " over a one year period.";
+var string6 = "Weekly business data services aveage ";
 
 // 1st conditional statement for 3 months of service
 if(c === 126){
@@ -51,6 +52,5 @@ if(c === 378){
 }
 
 // Prompt that determines weekly/monthly data services
-var serviceAvg = prompt('Find out average cost of data services, \ntype "w" for weekly average; "m" for monthly average.', "w");
-
+var serviceAvg = prompt('Enter "w" for weekly average; "m" for a monthly average.', "w");
 
