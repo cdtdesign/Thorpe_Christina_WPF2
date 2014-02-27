@@ -4,18 +4,19 @@
 
 // Calculate business data services cost for a given number of months
 
-// Monthly business data services cost variables
-var dataStorageCost = 10; // Current data storage is DropBox
-var projectInvCost = 12; // Current invoicing is thru Harvest
-var projectMgrCost = 20; // Current project mgmt is thru Basecamp
+// Monthly business data services costs
 
-// Add prompt variable for user to input amount of time in months
-var amountOfTime = prompt("Enter number of months of service: ");
+// Add prompt that contribute number of years to end calc
+/*
+var amountOfTime = prompt("Enter number of years: ");
+*/
 
 // Create function container with parameters
-function calcServicesTot(cost){
-// Calculating variable
-    var calcServicesTot = cost * amountOfTime
+var total = function(service1, service2, service3, months){
+    var calc = (service1 + service2 + service3) * months;
 // Return statement to send info outside of function for output
-    return calcServicesTot;
+    return calc;
 }
+
+var c = total(10, 12, 20, 6)
+console.log(c);
