@@ -25,4 +25,9 @@ if(sleepAMPM1 === "PM" || sleepAMPM1 === "pm"){ // Logical operator included
 // Conditional for AM selection on Sleep End
 if(sleepAMPM2 === "AM" || sleepAMPM2 === "am"){ // Logical operator included
     var timeAwake = (parseInt(sleepEnd) + 12);
+
+// Conditional for PM selection on Sleep End
+}
+if(sleepAMPM2 === "PM" || sleepAMPM2 === "pm"){ // Logical operator included
+    var timeAwake = (parseInt(sleepEnd));
 }
