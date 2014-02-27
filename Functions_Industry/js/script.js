@@ -59,11 +59,5 @@ var serviceAvg = prompt('Enter "w" for weekly service average OR \n"m" for month
 var weeklyAvg = 504/52;
 var monthlyAvg = 504/12;
 
-// Conditional for weekly average calc
-if(serviceAvg === "w"){
-    console.log(string6 + weeklyAvg + ".");
-}
-// Conditional for monthly average calc
-if(serviceAvg === "m"){
-    console.log(string7 + monthlyAvg + ".");
-}
+// Ternary conditional for monthly/weekly average calc
+(serviceAvg === "w") ? console.log(string6 + weeklyAvg + ".") : console.log(string7 + monthlyAvg + ".");
