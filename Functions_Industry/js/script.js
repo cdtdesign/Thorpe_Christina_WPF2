@@ -46,7 +46,7 @@ if(c === 378){
 }
 
 // Prompt that determines weekly/monthly data services
-var serviceAvg = prompt('Enter "w" for weekly service average OR \n"m" for monthly average.', "m");
+var serviceAvg = prompt('Enter "w" for weekly service average OR \n"m" for monthly average.');
 
 // Variables for conditionals on average
 var weeklyAvg = 504/52;
