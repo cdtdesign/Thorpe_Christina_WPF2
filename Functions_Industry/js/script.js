@@ -27,9 +27,13 @@ var months12 = 12;
 var c = total(10, 12, 20, months6);
 var string1 = "Monthly business data services total $";
 var string2 = " over three months.";
+var string3 = " over six months.";
 
-
-// 1st conditional statement
+// 1st conditional statement for 3 months of service
 if(c === 126){
     console.log(string1 + c + string2);
+}
+// 2nd conditional statement for 6 mos of service
+if(c === 252){
+    console.log(string1 + c + string3);
 }
