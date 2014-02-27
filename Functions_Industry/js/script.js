@@ -2,7 +2,7 @@
 // Christina Thorpe
 // February 26, 2014
 
-// Calculate business data services cost for a given number of months
+// Calculate business data services cost for a given number of months. Also find out monthly/weekly average of costs
 
 // Create function container with parameters
 var total = function(service1, service2, service3, months){
@@ -17,7 +17,7 @@ var months9 = 9;
 var months12 = 12;
 
 // Arguments for function calc
-var c = total(10, 12, 20, months12);
+var c = total(10, 12, 20, months3);
 // Variable of string statement for function output to console
 var string1 = "Monthly business data services total $";
 
@@ -26,7 +26,7 @@ var string2 = " over three months.";
 var string3 = " over six months.";
 var string4 = " over nine months.";
 var string5 = " over a one year period.";
-var string6 = "Weekly business data services average is $";
+var string6 = "That is a weekly average of $";
 var string7 = "That is a monthly average of $";
 
 // 1st conditional statement for 3 months of service
