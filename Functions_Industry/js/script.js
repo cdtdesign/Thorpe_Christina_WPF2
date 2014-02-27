@@ -30,15 +30,15 @@ var string6 = "That is a weekly average of $";
 var string7 = "That is a monthly average of $";
 
 // 1st conditional statement for 3 months of service
-if(c === 126){
+if(c === (months3 * 42)){
     console.log(string1 + c + string2);
 }
 // 2nd conditional statement for 6 mos of service
-if(c === 252){
+if(c === months6 * 42){
     console.log(string1 + c + string3);
 }
 // 3rd conditional statement for 9 mos of service
-if(c === 378){
+if(c === months9 * 42){
     console.log(string1 + c + string4);
 // 4th conditional statement for 12 mos of service
 }else if (c >= 379){
@@ -46,7 +46,7 @@ if(c === 378){
 }
 
 // Prompt that determines weekly/monthly data services
-var serviceAvg = prompt('Enter "w" for weekly service average OR \n"m" for monthly average.');
+var serviceAvg = prompt('Enter "w" for weekly service average OR \n"m" for monthly average.', "m");
 
 // Variables for conditionals on average
 var weeklyAvg = 504/52;
