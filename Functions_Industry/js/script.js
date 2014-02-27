@@ -23,5 +23,7 @@ var months6 = 6;
 var months9 = 9;
 var months12 = 12;
 
+// Arguments for function calc
 var c = total(10, 12, 20, months3);
+
 console.log(c);
