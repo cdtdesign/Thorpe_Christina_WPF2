@@ -17,6 +17,11 @@ var total = function(service1, service2, service3, months){
 // Return statement to send info outside of function for output
     return calc;
 }
+// Add month variable to function
+var months3 = 3;
+var months6 = 6;
+var months9 = 9;
+var months12 = 12;
 
-var c = total(10, 12, 20, 6)
+var c = total(10, 12, 20, months3);
 console.log(c);
