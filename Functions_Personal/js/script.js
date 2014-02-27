@@ -34,7 +34,9 @@ if(sleepAMPM2 === "PM" || sleepAMPM2 === "pm"){ // Logical operator included
 
 // Create normal named function container
 function hoursSlept(timeAwake,timeAsleep){
-// Create return to send result to output to console
+// Create return to send result to output at console
     return calcHours;
 }
+// Argument variables
+var calcHours = timeAwake - timeAsleep;
 
