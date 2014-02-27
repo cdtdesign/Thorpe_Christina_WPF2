@@ -5,3 +5,7 @@
 
 // Calculate number of hours slept
 
+// Create normal named function container
+function hoursSlept(){
+    
+}
