@@ -63,3 +63,7 @@ var monthlyAvg = 504/12;
 if(serviceAvg === "w"){
     console.log(string6 + weeklyAvg + ".");
 }
+// Conditional for monthly average calc
+if(serviceAvg === "m"){
+    console.log(string7 + monthlyAvg + ".");
+}
