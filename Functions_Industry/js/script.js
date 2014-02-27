@@ -53,3 +53,4 @@ if(c === 378){
 // Prompt that determines weekly/monthly data services
 var serviceAvg = prompt('Find out average cost of data services, \ntype "w" for weekly average; "m" for monthly average.', "w");
 
+
