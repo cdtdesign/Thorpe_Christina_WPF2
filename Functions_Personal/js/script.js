@@ -40,3 +40,6 @@ function hoursSlept(timeAwake,timeAsleep){
 // Argument variables
 var calcHours = timeAwake - timeAsleep;
 
+// String variable to output result to console
+var totalHoursSlept = "You slept a total of " + Math.abs(calcHours) + " hours.";
+
