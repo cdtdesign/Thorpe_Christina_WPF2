@@ -25,5 +25,6 @@ var months12 = 12;
 
 // Arguments for function calc
 var c = total(10, 12, 20, months3);
+var string1 = "Monthly business data services total ";
 
-console.log(c);
+console.log(string1 + c + ".");
