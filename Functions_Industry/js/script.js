@@ -24,12 +24,12 @@ var months9 = 9;
 var months12 = 12;
 
 // Arguments for function calc
-var c = total(10, 12, 20, months3);
+var c = total(10, 12, 20, months6);
 var string1 = "Monthly business data services total $";
 var string2 = " over three months.";
-console.log(string1 + c);
 
-// Conditional statement
+
+// 1st conditional statement
 if(c === 126){
-    console.log(string2);
+    console.log(string1 + c + string2);
 }
