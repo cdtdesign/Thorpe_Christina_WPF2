@@ -27,7 +27,7 @@ var string3 = " over six months.";
 var string4 = " over nine months.";
 var string5 = " over a one year period.";
 var string6 = "Weekly business data services average is $";
-var string7 = "Monthly business data services average is $";
+var string7 = "That is a monthly average of $";
 
 // 1st conditional statement for 3 months of service
 if(c === 126){
