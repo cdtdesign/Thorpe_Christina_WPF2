@@ -31,3 +31,9 @@ if(sleepAMPM2 === "AM" || sleepAMPM2 === "am"){ // Logical operator included
 if(sleepAMPM2 === "PM" || sleepAMPM2 === "pm"){ // Logical operator included
     var timeAwake = (parseInt(sleepEnd));
 }
+
+// Create normal named function container
+function hoursSlept(timeAwake,timeAsleep){
+    
+}
+
