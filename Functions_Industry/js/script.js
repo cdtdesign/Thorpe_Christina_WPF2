@@ -49,3 +49,7 @@ if(c === 378){
 }else if (c >= 379){
     console.log(string1 + c + string5);
 }
+
+// Prompt that determines weekly/monthly data services
+var serviceAvg = prompt('Find out average cost of data services, \ntype "w" for weekly average; "m" for monthly average.', "w");
+
