@@ -11,3 +11,8 @@ var sleepAMPM1 = prompt("AM or PM?", "PM");
 // Prompt variables for wake up time
 var sleepEnd = prompt("Time woken up?", 6);
 var sleepAMPM2 = prompt("AM or PM?", "AM");
+
+// Create conditional for AM selection
+if(sleepAMPM1 === "AM" || sleepAMPM1 === "am"){  // Logical operator included
+    var timeAsleep = (parseInt(sleepStart) + 12);
+}
