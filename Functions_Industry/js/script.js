@@ -4,7 +4,7 @@
 
 // Calculate business data services cost for a given number of months. Also find out monthly/weekly average of costs
 
-// Create function container with parameters
+// Create anonymous function container with parameters
 var total = function(service1, service2, service3, months){
     var calc = (service1 + service2 + service3) * months;
 // Return statement to send info outside of function for output
