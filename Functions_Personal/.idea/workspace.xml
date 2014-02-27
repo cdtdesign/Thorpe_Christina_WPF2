@@ -35,7 +35,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="188" selection-end="188" vertical-scroll-proportion="0.1869806" vertical-offset="0" max-vertical-offset="722">
+            <state line="7" column="34" selection-start="153" selection-end="153" vertical-scroll-proportion="0.14542936" vertical-offset="0" max-vertical-offset="722">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -144,6 +144,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Functions_Wacky" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -235,7 +236,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="188" selection-end="188" vertical-scroll-proportion="0.1869806" vertical-offset="0" max-vertical-offset="722">
+        <state line="7" column="34" selection-start="153" selection-end="153" vertical-scroll-proportion="0.14542936" vertical-offset="0" max-vertical-offset="722">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
