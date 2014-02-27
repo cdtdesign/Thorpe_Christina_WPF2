@@ -4,13 +4,6 @@
 
 // Calculate business data services cost for a given number of months
 
-// Monthly business data services costs
-
-// Add prompt that contribute number of years to end calc
-/*
-var amountOfTime = prompt("Enter number of months: ");
-*/
-
 // Create function container with parameters
 var total = function(service1, service2, service3, months){
     var calc = (service1 + service2 + service3) * months;
