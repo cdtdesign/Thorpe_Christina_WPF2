@@ -25,5 +25,10 @@ var bricksStacked = brickCalc;
 var puzzleGuess = prompt("Enter your guess on how many bricks tall: ");
 
 // Contcat string for correct guess
-var solidAsABrick = "You are correct! Your answer is solid as a brick, at "+ puzzleGuess + "bricks tall!";
+var solidAsABrick = "You are correct! Your answer is solid as a brick, at "+ puzzleGuess + " bricks tall!";
 
+// Conditional for correct user guess
+if(puzzleGuess = bricksStacked)
+{
+    console.log(solidAsABrick);
+}
