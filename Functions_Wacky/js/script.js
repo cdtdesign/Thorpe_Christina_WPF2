@@ -27,10 +27,15 @@ var puzzleGuess = prompt("Enter your guess on how many bricks tall: ");
 // Contcat string for correct guess
 var solidAsABrick = "You are correct! Your answer is solid as a brick! \nRapunzel's hair length is "+ puzzleGuess + " tower bricks tall!";
 
+// Concat string for too few bricks
 var shortOnBricks = "Sorry, not enough bricks. :(";
 
 // Conditional for correct user guess
 if(parseInt(puzzleGuess) === 70*12/8)
 {
     console.log(solidAsABrick);
+}
+// Conditional for too small of a guess
+if(parseInt(puzzleGuess < 70*12/8)){
+    console.log(shortOnBricks);
 }
