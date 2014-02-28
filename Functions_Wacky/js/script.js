@@ -28,10 +28,10 @@ var puzzleGuess = prompt("Enter your guess on how many bricks tall: ");
 var solidAsABrick = "You are correct! Your answer is as solid as those bricks! \nRapunzel's hair length is "+ puzzleGuess + " tower bricks tall!  \nThat's some mighty long hair and a VERY expensive haircut!!!";
 
 // Concat string for too few bricks guessed
-var shortOnBricks = "Sorry, your guess of " + puzzleGuess + " is not enough bricks.";
+var shortOnBricks = "Sorry, your guess of " + puzzleGuess + " is not enough bricks. \nPlease REFRESH and try to guess again!";
 
 // Concat string for too many bricks guessed
-var tooManyBricks = "Sorry, you have guessed too many bricks at " + puzzleGuess + " bricks.";
+var tooManyBricks = "Sorry, you have guessed too many bricks at " + puzzleGuess + " bricks. \nPlease REFRESH and try to guess again!";
 
 // Conditional for correct user guess
 if(parseInt(puzzleGuess) === 70*12/8){
@@ -41,6 +41,7 @@ if(parseInt(puzzleGuess) === 70*12/8){
 if(parseInt(puzzleGuess) < 70*12/8){
     console.log(shortOnBricks);
 }
+// Conditional for too large of a guess
 if(parseInt(puzzleGuess) > 70*12/8){
     console.log(tooManyBricks);
 }
