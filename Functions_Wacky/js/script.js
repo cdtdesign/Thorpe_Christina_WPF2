@@ -44,4 +44,9 @@ if(parseInt(puzzleGuess) < 70*12/8){
 // Conditional for too large of a guess
 if(parseInt(puzzleGuess) > 70*12/8){
     console.log(tooManyBricks);
+// Else if conditional when user leave prompt blank
+}else if
+    (puzzleGuess === "")
+{
+    console.log(alert("Please enter a guess and hit REFRESH to try again!"));
 }
