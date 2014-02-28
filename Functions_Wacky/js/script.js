@@ -24,3 +24,6 @@ var bricksStacked = brickCalc;
 // Create a prompt for users to enter their guess on the number of bricks
 var puzzleGuess = prompt("Enter your guess on how many bricks tall: ");
 
+// Contcat string for correct guess
+var solidAsABrick = "You are correct! Your answer is solid as a brick, at "+ puzzleGuess + "bricks tall!";
+
