@@ -17,4 +17,6 @@ var puzzleGuess = prompt("Enter your guess on how many bricks tall: ");
 // Create function to hold calc parameters
 function brickCalc(param1, param2, param3, param4){
     var bricks = RapunzelsFeet * inchesPerFeet / (brickLength * brickHeight);
+// Create return to send calc outside of func to output
+    return bricks;
 }
