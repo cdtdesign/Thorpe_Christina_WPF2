@@ -13,7 +13,7 @@ var brickHeight = .66666667;
 
 // Create function to hold calc parameters
 function brickCalc(param1, param2, param3, param4){
-    var bricksStacked = RapunzelsFeet * inchesPerFeet / (brickLength * brickHeight);
+    var bricksStacked = RapunzelsFeet * inchesPerFeet / brickLength * brickHeight;
 // Create return to send calc outside of func for output
     return bricksStacked;
 }
@@ -25,10 +25,12 @@ var bricksStacked = brickCalc;
 var puzzleGuess = prompt("Enter your guess on how many bricks tall: ");
 
 // Contcat string for correct guess
-var solidAsABrick = "You are correct! Your answer is solid as a brick, at "+ puzzleGuess + " bricks tall!";
+var solidAsABrick = "You are correct! Your answer is solid as a brick! \nRapunzel's hair length is "+ puzzleGuess + " tower bricks tall!";
+
+var shortOnBricks = "Sorry, not enough bricks. :(";
 
 // Conditional for correct user guess
-if(puzzleGuess = bricksStacked)
+if(parseInt(puzzleGuess) === 70*12/8)
 {
     console.log(solidAsABrick);
 }
